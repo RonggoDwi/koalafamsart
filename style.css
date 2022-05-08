@@ -1,0 +1,925 @@
+body {
+  background-color: #f9b595;
+}
+.img-fluid {
+  margin-top: 56px;
+}
+.container {
+  position: relative;
+}
+.container .btn {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: orange;
+  color: rebeccapurple;
+  font-size: 23px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.container .btn:hover {
+  background-color: whitesmoke;
+}
+.fab {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 9px;
+}
+.logo {
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: inherit 5px;
+  position: absolute;
+  top: 29%;
+  /* left: 50%; */
+  display: flex;
+  width: 211px;
+  justify-content: space-between;
+}
+@media only screen and (min-width: 1001px) {
+  .container .btn {
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    font-size: 21px;
+    padding: 10px 20px;
+    width: 237px;
+  }
+
+  .logo {
+    font-size: 32px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: inherit 5px;
+    position: absolute;
+    top: 32%;
+    left: 35.5%;
+    display: flex;
+    width: 241px;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+  .container .btn {
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    font-size: 24px;
+    padding: 10px 20px;
+    width: 272px;
+  }
+  .logo {
+    font-size: 42px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: inherit 5px;
+    position: absolute;
+    top: 32%;
+    left: 37.5%;
+    display: flex;
+    width: 276px;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .container .btn {
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    font-size: 24px;
+    padding: 10px 20px;
+    width: 272px;
+  }
+  .logo {
+    font-size: 42px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: inherit 5px;
+    position: absolute;
+    top: 32%;
+    left: 35.5%;
+    display: flex;
+    width: 276px;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1199px) {
+  .logo {
+    font-size: 32px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: inherit 5px;
+    position: absolute;
+    top: 32%;
+    left: 35.5%;
+    display: flex;
+    width: 241px;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 999px) {
+  .container .btn {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 18px;
+    padding: 10px 20px;
+    width: 213px;
+  }
+
+  .logo {
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: inherit 5px;
+    position: absolute;
+    top: 32%;
+    left: 39%;
+    display: flex;
+    width: 212px;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 998px) and (min-width: 992px) {
+  .container .btn {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 18px;
+    padding: 10px 20px;
+    width: 214px;
+  }
+  .logo {
+    font-size: 28px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: inherit 5px;
+    position: absolute;
+    top: 32%;
+    left: 38.5%;
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .container .btn {
+    position: absolute;
+    top: 31%;
+    left: 47%;
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 191px;
+  }
+
+  .logo {
+    font-size: 21px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: inherit 5px;
+    display: flex;
+    width: 192px;
+    justify-content: space-between;
+    left: 33.5%;
+    top: 33%;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 751px) {
+  .container .btn {
+    position: absolute;
+    top: 32%;
+    left: 47%;
+    font-size: 13px;
+    padding: 10px 20px;
+    width: 158px;
+  }
+
+  .logo {
+    font-size: 15px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: inherit 5px;
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+    left: 32%;
+    top: 34%;
+  }
+}
+
+@media only screen and (max-width: 750px) and (min-width: 701px) {
+  .container .btn {
+    position: absolute;
+    top: 31%;
+    left: 46%;
+    font-size: 11px;
+    padding: 7px 10px;
+    width: 150px;
+  }
+
+  .logo {
+    font-size: 13px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: inherit 5px;
+    position: absolute;
+    display: flex;
+    width: 149px;
+    justify-content: space-between;
+    left: 32% !important;
+    top: 33% !important;
+  }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 601px) {
+  .container .btn {
+    position: absolute;
+    top: 31%;
+    left: 46%;
+    font-size: 14px;
+    padding: 7px 10px;
+    width: 154px;
+  }
+
+  .logo {
+    font-size: 15px;
+    width: 50px;
+    text-align: center;
+    width: 156px;
+    justify-content: space-between;
+    left: 31.5% !important;
+    top: 33% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 551px) {
+  .container .btn {
+    position: absolute;
+    top: 31%;
+    left: 46%;
+    font-size: 13px;
+    padding: 7px 10px;
+    width: 148px;
+  }
+
+  .logo {
+    font-size: 13px;
+    width: 50px;
+    text-align: center;
+    width: 151px;
+    justify-content: space-between;
+    left: 32% !important;
+    top: 33% !important;
+  }
+}
+
+@media only screen and (max-width: 550px) and (min-width: 501px) {
+  .container .btn {
+    position: absolute;
+    top: 31%;
+    left: 46%;
+    font-size: 14px;
+    padding: 7px 10px;
+    width: 146px;
+  }
+
+  .logo {
+    font-size: 14px;
+    width: 50px;
+    text-align: center;
+    width: 147px;
+    justify-content: space-between;
+    left: 32.5% !important;
+    top: 33% !important;
+  }
+}
+@media only screen and (max-width: 500px) and (min-width: 450px) {
+  .container .btn {
+    position: absolute;
+    top: 32%;
+    left: 48%;
+    font-size: 10px;
+    padding: 7px 10px;
+    width: 112px;
+  }
+
+  .logo {
+    font-size: 16px;
+    width: 50px;
+    top: 34%;
+    left: 36.5% !important;
+    width: 114px;
+  }
+
+  .fab {
+    padding: 5px !important;
+  }
+}
+
+@media only screen and (max-width: 449px) and (min-width: 400px) {
+  .container .btn {
+    position: absolute;
+    top: 32%;
+    left: 47%;
+    font-size: 8px;
+    padding: 7px 10px;
+    width: 99px;
+  }
+
+  .logo {
+    font-size: 12px;
+    width: 50px;
+    top: 34%;
+    left: 35.5% !important;
+    width: 103px;
+  }
+
+  .fab {
+    padding: 5px !important;
+  }
+}
+
+@media only screen and (max-width: 399px) and (min-width: 350px) {
+  .container .btn {
+    position: absolute;
+    top: 33%;
+    left: 47%;
+    font-size: 8px;
+    padding: 4px 10px;
+    width: 93px;
+  }
+
+  .logo {
+    font-size: 11px;
+    width: 50px;
+    top: 35%;
+    left: 35% !important;
+    width: 95px;
+  }
+
+  .fab {
+    padding: 5px !important;
+  }
+}
+
+@media only screen and (max-width: 349px) and (min-width: 340px) {
+  .container .btn {
+    position: absolute;
+    top: 33%;
+    left: 46%;
+    font-size: 8px;
+    padding: 4px 10px;
+    width: 91px;
+  }
+
+  .logo {
+    font-size: 10px;
+    width: 50px;
+    top: 35%;
+    left: 33% !important;
+    width: 93px;
+  }
+
+  .fab {
+    padding: 5px !important;
+  }
+}
+
+@media only screen and (max-width: 339px) and (min-width: 330px) {
+  .container .btn {
+    position: absolute;
+    top: 33%;
+    left: 46%;
+    font-size: 8px;
+    padding: 4px 10px;
+    width: 91px;
+  }
+
+  .logo {
+    font-size: 10px;
+    width: 50px;
+    top: 35%;
+    left: 32.5% !important;
+    width: 93px;
+  }
+
+  .fab {
+    padding: 5px !important;
+  }
+  .navbar-brand {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 329px) and (min-width: 320px) {
+  .container .btn {
+    position: absolute;
+    top: 34%;
+    left: 46%;
+    font-size: 7px;
+    padding: 4px 10px;
+    width: 86px;
+  }
+
+  .logo {
+    font-size: 9px;
+    width: 50px;
+    top: 36%;
+    left: 32.5% !important;
+    width: 89px;
+  }
+
+  .fab {
+    padding: 5px !important;
+  }
+  .navbar-brand {
+    font-size: 14px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 319px) and (min-width: 310px) {
+  .container .btn {
+    position: absolute;
+    top: 34%;
+    left: 46%;
+    font-size: 7px;
+    padding: 4px 10px;
+    width: 86px;
+  }
+
+  .logo {
+    font-size: 9px;
+    width: 50px;
+    top: 36%;
+    left: 32.5% !important;
+    width: 86px;
+  }
+
+  .fab {
+    padding: 5px !important;
+  }
+  .navbar-brand {
+    font-size: 14px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 309px) and (min-width: 300px) {
+  .container .btn {
+    position: absolute;
+    top: 34%;
+    left: 46%;
+    font-size: 7px;
+    padding: 4px 10px;
+    width: 86px;
+  }
+
+  .logo {
+    font-size: 10px;
+    width: 50px;
+    top: 36%;
+    left: 31.5% !important;
+    width: 86px;
+  }
+
+  .fab {
+    padding: 5px !important;
+  }
+  .navbar-brand {
+    font-size: 14px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 299px) and (min-width: 280px) {
+  .container .btn {
+    position: absolute;
+    top: 34%;
+    left: 46%;
+    font-size: 7px;
+    padding: 4px 10px;
+    width: 86px;
+  }
+
+  .logo {
+    font-size: 10px;
+    width: 50px;
+    top: 36%;
+    left: 31.5% !important;
+    width: 86px;
+  }
+
+  .fab {
+    padding: 5px !important;
+  }
+  .navbar-brand {
+    font-size: 14px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 279px) and (min-width: 260px) {
+  .container .btn {
+    position: absolute;
+    top: 35%;
+    left: 46%;
+    font-size: 7px;
+    padding: 2px 10px;
+    width: 83px;
+  }
+
+  .logo {
+    font-size: 8px;
+    width: 50px;
+    top: 37%;
+    left: 30.5% !important;
+    width: 86px;
+  }
+
+  .fab {
+    padding: 5px !important;
+  }
+  .navbar-brand {
+    font-size: 14px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 259px) and (min-width: 250px) {
+  .container .btn {
+    position: absolute;
+    top: 35%;
+    left: 46%;
+    font-size: 6px;
+    padding: 2px 10px;
+    width: 74px;
+  }
+
+  .logo {
+    font-size: 6px;
+    width: 50px;
+    top: 37%;
+    left: 31% !important;
+    width: 77px;
+  }
+
+  .fab {
+    padding: 5px !important;
+  }
+  .navbar-brand {
+    font-size: 13px;
+  }
+  p {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 249px) and (min-width: 240px) {
+  .container .btn {
+    position: absolute;
+    top: 35%;
+    left: 46%;
+    font-size: 5px;
+    padding: 2px 10px;
+    width: 65px;
+  }
+
+  .logo {
+    font-size: 4px;
+    width: 50px;
+    top: 37%;
+    left: 33% !important;
+    width: 67px;
+  }
+
+  .fab {
+    padding: 5px !important;
+  }
+  .navbar-brand {
+    font-size: 13px;
+  }
+  p {
+    font-size: 13px;
+  }
+  .navbar-toggler {
+    font-size: 1rem;
+  }
+  .navbar {
+    padding-bottom: 0.85rem;
+  }
+}
+
+@media only screen and (max-width: 239px) and (min-width: 220px) {
+  .container .btn {
+    position: absolute;
+    top: 36%;
+    left: 46%;
+    font-size: 5px;
+    padding: 2px 10px;
+    width: 65px;
+  }
+
+  .logo {
+    font-size: 4px;
+    width: 50px;
+    top: 38%;
+    left: 32% !important;
+    width: 67px;
+  }
+
+  .fab {
+    padding: 5px !important;
+  }
+  .navbar-brand {
+    font-size: 13px;
+  }
+  p {
+    font-size: 13px;
+  }
+  .navbar-toggler {
+    font-size: 1rem;
+  }
+  .navbar {
+    padding-bottom: 0.85rem;
+  }
+}
+
+@media only screen and (max-width: 219px) and (min-width: 200px) {
+  .container .btn {
+    position: absolute;
+    top: 37%;
+    left: 46%;
+    font-size: 5px;
+    padding: 2px 10px;
+    width: 65px;
+  }
+
+  .logo {
+    font-size: 4px;
+    width: 50px;
+    top: 39%;
+    left: 31% !important;
+    width: 67px;
+  }
+
+  .fab {
+    padding: 5px !important;
+  }
+  .navbar-brand {
+    font-size: 13px;
+  }
+  p {
+    font-size: 13px;
+  }
+  .navbar-toggler {
+    font-size: 0.8rem;
+  }
+  .navbar {
+    padding-bottom: 1.15rem;
+  }
+}
+
+@media only screen and (max-width: 199px) and (min-width: 180px) {
+  .container .btn {
+    position: absolute;
+    top: 37%;
+    left: 46%;
+    font-size: 4px;
+    padding: 2px 10px;
+    width: 56px;
+  }
+
+  .logo {
+    font-size: 3px;
+    width: 50px;
+    top: 39%;
+    left: 31.5% !important;
+    width: 58px;
+  }
+
+  .fab {
+    padding: 5px !important;
+  }
+  .navbar-brand {
+    font-size: 12px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .navbar-toggler {
+    font-size: 0.8rem;
+  }
+  .navbar {
+    padding-bottom: 1.15rem;
+  }
+}
+
+@media only screen and (max-width: 179px) and (min-width: 170px) {
+  .container .btn {
+    position: absolute;
+    top: 38%;
+    left: 46%;
+    font-size: 4px;
+    padding: 2px 10px;
+    width: 56px;
+  }
+
+  .logo {
+    font-size: 2px;
+    width: 50px;
+    top: 40%;
+    left: 29.5% !important;
+    width: 57px;
+  }
+
+  .fab {
+    padding: 5px !important;
+  }
+  .navbar-brand {
+    font-size: 12px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .navbar-toggler {
+    font-size: 0.8rem;
+  }
+  .navbar {
+    padding-bottom: 1.15rem;
+  }
+}
+
+@media only screen and (max-width: 169px) and (min-width: 160px) {
+  .container .btn {
+    position: absolute;
+    top: 38%;
+    left: 46%;
+    font-size: 4px;
+    padding: 2px 10px;
+    width: 56px;
+  }
+
+  .logo {
+    font-size: 2px;
+    width: 50px;
+    top: 40%;
+    left: 29.5% !important;
+    width: 57px;
+  }
+
+  .fab {
+    padding: 5px !important;
+  }
+  .navbar-brand {
+    font-size: 11px;
+  }
+  p {
+    font-size: 11px;
+  }
+  .navbar-toggler {
+    font-size: 0.5rem;
+  }
+  .navbar {
+    padding-bottom: 1.22rem;
+  }
+}
+
+@media only screen and (max-width: 159px) and (min-width: 150px) {
+  .container .btn {
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    font-size: 3px;
+    padding: 2px 10px;
+    width: 47px;
+  }
+
+  .logo {
+    font-size: 2px;
+    width: 50px;
+    top: 42%;
+    left: 31% !important;
+    width: 48px;
+  }
+
+  .fab {
+    padding: 4px !important;
+  }
+  .navbar-brand {
+    font-size: 11px;
+  }
+  p {
+    font-size: 11px;
+  }
+  .navbar-toggler {
+    font-size: 0.5rem;
+  }
+  .navbar {
+    padding-bottom: 1.32rem;
+  }
+}
+
+@media only screen and (max-width: 149px) and (min-width: 100px) {
+  .container .btn {
+    position: absolute;
+    top: 44%;
+    left: 46%;
+    font-size: 1px;
+    padding: 2px 10px;
+    width: 31px;
+  }
+
+  .logo {
+    font-size: 3px;
+    width: 50px;
+    top: 46%;
+    left: 29% !important;
+    width: 32px;
+  }
+
+  .fab {
+    padding: 2px !important;
+  }
+  .navbar-brand {
+    font-size: 4px;
+  }
+  p {
+    font-size: 5px;
+  }
+  .navbar-toggler {
+    font-size: 0.25rem;
+  }
+  .navbar {
+    padding-bottom: 1.9rem;
+  }
+}
+
+@media only screen and (max-width: 99px) and (min-width: 50px) {
+  .container .btn {
+    position: absolute;
+    top: 68%;
+    left: 47%;
+    font-size: 0px;
+    padding: 1px 10px;
+    width: 2px;
+  }
+
+  .logo {
+    font-size: 1px;
+    width: 50px;
+    top: 71%;
+    left: 29% !important;
+    width: 17px;
+  }
+
+  .fab {
+    padding: 0px !important;
+  }
+  .navbar-brand {
+    font-size: 2px;
+  }
+  p {
+    font-size: 2px;
+  }
+  .navbar-toggler {
+    font-size: 0.1rem;
+  }
+  .navbar {
+    padding-bottom: 0rem;
+  }
+}
